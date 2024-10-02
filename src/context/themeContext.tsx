@@ -1,5 +1,5 @@
 "use client"
-import React, { createContext, useContext, useEffect, useLayoutEffect, useState } from 'react'
+import React, { createContext, useContext, useLayoutEffect, useState } from 'react'
 
 export type themeProp = "light" | "dark"
 type themeContextProp ={

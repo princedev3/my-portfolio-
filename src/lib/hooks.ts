@@ -17,7 +17,7 @@ export default function useSectionInview(setionName:activeType,threshold=0.75){
         if(inView && Date.now()-timeOfLastClick>1000 ){
                  setActive(setionName)
         }
-    },[ref,inView,timeOfLastClick,setTimeOfLastClick])
+    },[ref,inView,timeOfLastClick,setTimeOfLastClick,setActive,active])
 
     return {
         ref,
