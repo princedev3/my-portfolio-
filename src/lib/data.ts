@@ -37,8 +37,7 @@ export const experiencesData = [
   {
     title: "Entobo Engineering",
     location: "Nigeria-team",
-    description:
-      "I worked as a front-end developer for Entobo Engineering.",
+    description: "I worked as a front-end developer for Entobo Engineering.",
     icon: React.createElement(CgWorkAlt),
     date: "2024-ongoing",
   },
@@ -53,8 +52,7 @@ export const experiencesData = [
   {
     title: "React Developer",
     location: "Udemy",
-    description:
-      "React mastery class by Ernest Apedo",
+    description: "React mastery class by Ernest Apedo",
     icon: React.createElement(FaReact),
     date: "2022",
   },
@@ -65,11 +63,18 @@ export const projectsData = [
     title: "SilverFox  Resturant",
     description:
       "online purchase of burger. Nextjs app-router, mongodb and prisma orm. and it is mobile responsive",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma","App-router","Stripe-payment"],
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind",
+      "Prisma",
+      "App-router",
+      "Stripe-payment",
+    ],
     imageUrl: "/silverfox.png",
   },
   {
-    
     title: "Car Catalogue",
     description:
       "car rent services where you can chose fancy cars base on fuel type, model, year of production and manufacturers.",
@@ -80,14 +85,10 @@ export const projectsData = [
     title: "Home Commercials",
     description:
       "this app is made is nextjs and app router mainly for home service to capture customer in need of apartment -Welcome Home: Where Comfort Meets Style.",
-    tags: ["React", "Next.js","Prisma","Stripe","Tailwind","app-router"],
+    tags: ["React", "Next.js", "Prisma", "Stripe", "Tailwind", "app-router"],
     imageUrl: "/home.png",
   },
 ] as const;
-
-
-
-
 
 export const skillsData = [
   "HTML",
@@ -99,14 +100,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  
+  "Tankstack-Query",
   "MongoDB",
   "Redux",
-  
-  
+
   "Express",
   "PostgreSQL",
-  
-  
+
   "Framer Motion",
 ] as const;
