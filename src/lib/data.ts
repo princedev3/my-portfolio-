@@ -36,57 +36,66 @@ export const links = [
 export const experiencesData = [
   {
     title: "Entobo Engineering",
-    location: "Nigeria-team",
+    location: "Remote",
     description: "I worked as a front-end developer for Entobo Engineering.",
     icon: React.createElement(CgWorkAlt),
+    website: "https://entobo.com",
     date: "2024-ongoing",
   },
   {
-    title: "Frontend Developer @Coderden bootcamp",
-    location: "Nigeria-online-team",
+    title: "Frontend Engineer – Goziri Insurance Brokerage-2023",
+    location: "Remote",
     description:
-      "I graduated Coderden bootcamp, and i have been working collaboratively with the team as a frontend developer for over a year now.",
+      "As a Software Engineer at Goziri Insurance Brokerage, I collaborated with the team in the development of the UI and implementation of the functionality. I ensure adequate compliance with the culture of clean code.",
     icon: React.createElement(LuGraduationCap),
+    website: "https://goziri.com",
     date: "2023",
   },
   {
-    title: "React Developer",
-    location: "Udemy",
-    description: "React mastery class by Ernest Apedo",
+    title: "Frontend Intern – Coderden Cohort -2023",
+    location: "Remote",
+    description:
+      "Extensive experience in React, Next.js, and TypeScript. I worked on a variety of projects,eg landing page.",
     icon: React.createElement(FaReact),
-    date: "2022",
+    website: "https://www.linkedin.com/codersden/",
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "SilverFox  Resturant",
+    title: "Ticketing app",
+    url: "https://ticket-sale-delta.vercel.app/",
     description:
-      "online purchase of burger. Nextjs app-router, mongodb and prisma orm. and it is mobile responsive",
+      "online purchase of ticket. Nextjs app-router, progress and prisma orm. and it is mobile responsive",
     tags: [
       "React",
       "Next.js",
-      "MongoDB",
+      "Postgres",
       "Tailwind",
+      "shadecn",
       "Prisma",
       "App-router",
-      "Stripe-payment",
+      "Paystack",
+      "pusher",
     ],
-    imageUrl: "/silverfox.png",
+    imageUrl: "/ticket.png",
   },
   {
     title: "Car Catalogue",
+    url: "https://cars-showcase-uf5p.vercel.app/",
     description:
       "car rent services where you can chose fancy cars base on fuel type, model, year of production and manufacturers.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: "/rmtdev.jpeg",
   },
   {
-    title: "Home Commercials",
+    title: "Dessert shop",
+    url: "https://dessert-k4b030pk9-princedev3s-projects.vercel.app/",
     description:
-      "this app is made is nextjs and app router mainly for home service to capture customer in need of apartment -Welcome Home: Where Comfort Meets Style.",
-    tags: ["React", "Next.js", "Prisma", "Stripe", "Tailwind", "app-router"],
-    imageUrl: "/home.png",
+      "this app is made is nextjs and app router mainly for dessert service to capture customer in need of delicious and tasty desserts, a place  Where taste Meets Style.",
+    tags: ["React", "Next.js", "Stripe", "Tailwind"],
+    imageUrl: "/dessert.png",
   },
 ] as const;
 
