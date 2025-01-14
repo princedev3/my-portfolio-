@@ -67,7 +67,7 @@ export const projectsData = [
     title: "Ticketing app",
     url: "https://ticket-sale-delta.vercel.app/",
     description:
-      "online purchase of ticket. Nextjs app-router, progress and prisma orm. and it is mobile responsive",
+      "online purchase of ticket. Nextjs app-router, postgres,next-auth and prisma orm. and it is mobile responsive",
     tags: [
       "React",
       "Next.js",
@@ -78,15 +78,33 @@ export const projectsData = [
       "App-router",
       "Paystack",
       "pusher",
+      "next-auth",
     ],
     imageUrl: "/ticket.png",
+  },
+  {
+    title: "Transaction app",
+    url: "https://new-transactions.vercel.app/",
+    description:
+      "online transaction record keeping. Nextjs app-router, postgres and prisma orm,next-auth login,email verification,forgot password feature. and it is mobile responsive",
+    tags: [
+      "React",
+      "Next.js",
+      "Postgres",
+      "Tailwind",
+      "shadecn",
+      "Prisma",
+      "App-router",
+      "next-auth",
+    ],
+    imageUrl: "/Capture.PNG",
   },
   {
     title: "Car Catalogue",
     url: "https://cars-showcase-uf5p.vercel.app/",
     description:
       "car rent services where you can chose fancy cars base on fuel type, model, year of production and manufacturers.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "axios"],
     imageUrl: "/rmtdev.jpeg",
   },
   {
@@ -112,9 +130,7 @@ export const skillsData = [
   "Tankstack-Query",
   "MongoDB",
   "Redux",
-
   "Express",
   "PostgreSQL",
-
   "Framer Motion",
 ] as const;
