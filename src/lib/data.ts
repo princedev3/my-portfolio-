@@ -64,6 +64,59 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "education",
+    url: "https://education-hazel.vercel.app/",
+    description:
+      "online purchase of ticket. Nextjs app-router, postgres,next-auth and prisma orm. and it is mobile responsive",
+    tags: [
+      "React",
+      "Next.js",
+      "Postgres",
+      "Tailwind",
+      "shadecn",
+      "Prisma",
+      "App-router",
+      "stripe",
+      "next-auth",
+    ],
+    imageUrl: "/education.jpg",
+  },
+  {
+    title: "Mini Market",
+    url: "https://new-next-resturant.vercel.app",
+    description:
+      "online purchase of ticket. Nextjs app-router, postgres,next-auth and prisma orm. and it is mobile responsive",
+    tags: [
+      "React",
+      "Next.js",
+      "Postgres",
+      "Tailwind",
+      "shadecn",
+      "Prisma",
+      "App-router",
+      "stripe",
+      "next-auth",
+    ],
+    imageUrl: "/mini-market.jpg",
+  },
+  {
+    title: "Blog",
+    url: "https://my-blog-liard-mu-72.vercel.app/",
+    description:
+      "online purchase of ticket. Nextjs app-router, postgres,next-auth and prisma orm. and it is mobile responsive",
+    tags: [
+      "React",
+      "Next.js",
+      "Postgres",
+      "Tailwind",
+      "shadecn",
+      "Prisma",
+      "App-router",
+      "next-auth",
+    ],
+    imageUrl: "/blog.jpg",
+  },
+  {
     title: "Ticketing app",
     url: "https://ticket-sale-delta.vercel.app/",
     description:

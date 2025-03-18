@@ -8,7 +8,6 @@ import { HiDownload } from "react-icons/hi";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
 import useSectionInview from "@/lib/hooks";
-import { Typewriter } from "react-simple-typewriter";
 import TypeEffect from "./type-effect";
 
 const Intro = () => {

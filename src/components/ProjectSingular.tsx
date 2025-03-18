@@ -13,26 +13,18 @@ export default function ProjectSingular({
   imageUrl,
   url,
 }: projectProps) {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["0 1", "1.33 1"],
-  });
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   return (
-    <motion.div
-      style={{
-        scale: scaleProgress,
-        opacity: opacityProgress,
-      }}
-      ref={ref}
-      className="mb-3 sm:mb-8  last:mb-0 group rounded-lg overflow-hidden"
-    >
-      <section className="  bg-gray-100 max-w-[44rem] border border-black/5 overflow-hidden sm:pr-8  relative sm:min-h-[23rem]  group-even:pl-8 hover:bg-gray-200 transition">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10  sm:max-w-[60%] flex flex-col h-full group-even:ml-[18rem] rounded-lg">
-          <p className="text-2xl font-semibold text-gray-700">{title}</p>
-          <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
+    <motion.div className="group hover:scale-105 transition-all duration-300 rounded-xl overflow-hidden w-full bg-gray-100 h-[380px]  hover:shadow-lg shadow-sm ">
+      <section className="overflow-hidden relative transition">
+        <Image
+          src={imageUrl}
+          alt="project"
+          quality={95}
+          width={300}
+          height={200}
+          className="object-cover  rounded-t-xl h-[180px] w-full"
+        />
+        <div className="px-1 flex flex-col h-full rounded-lg">
           <a
             href={url}
             target="_blank"
@@ -40,34 +32,17 @@ export default function ProjectSingular({
           >
             {title} Link{" "}
           </a>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap gap-2  h-full sm:mt-auto">
             {tags.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                className="bg-black/[0.7] px-2 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
               >
                 {item}
               </li>
             ))}
           </ul>
         </div>
-
-        <Image
-          src={imageUrl}
-          alt="project"
-          quality={95}
-          width={200}
-          height={200}
-          className="object-cover absolute -right-40 top-8  w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40  
-         group-hover:-translate-x-2
-         group-hover:translate-y-2
-         group-hover:scale-[1.04]
-         group-hover:-rotate-2
-         group-even:group-hover:-translate-x-2
-         group-even:group-hover:rotate-2
-         transition
-         "
-        />
       </section>
     </motion.div>
   );
