@@ -162,7 +162,7 @@ export const projectsData = [
   },
   {
     title: "Dessert shop",
-    url: "https://dessert-k4b030pk9-princedev3s-projects.vercel.app/",
+    url: "https://dessert-app-livid.vercel.app/",
     description:
       "this app is made is nextjs and app router mainly for dessert service to capture customer in need of delicious and tasty desserts, a place  Where taste Meets Style.",
     tags: ["React", "Next.js", "Stripe", "Tailwind"],
